@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { setSubmit } from "../slices/submitslice";
 import { useDispatch, useSelector } from "react-redux";
-import { emailSelector } from "../slices/emailSlice";
+import { emailSelector } from "../slices/emailslice";
 import axios from "axios";
 const OptComponent = () => {
   const [otp, setOtp] = useState("");
@@ -13,12 +13,11 @@ const OptComponent = () => {
   const submitOpt = (e) => {
     e.preventDefault();
     if (resOtp == otp) {
-      console.log(resOtp,otp);
-      dispatch(setSubmit());
-    }else{
-      
       console.log(resOtp, otp);
-      setAccess(false)
+      dispatch(setSubmit());
+    } else {
+      console.log(resOtp, otp);
+      setAccess(false);
     }
   };
 
@@ -64,7 +63,9 @@ const OptComponent = () => {
               <div className="text-blue-900">{email.value}</div>
             </div>
           ) : (
-            <div className="text-xl mb-10 text-slate-900 font-semibold">Otp didn't match</div>
+            <div className="text-xl mb-10 text-slate-900 font-semibold">
+              Otp didn't match
+            </div>
           )}
         </form>
       </div>
