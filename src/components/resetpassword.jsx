@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { emailSelector } from "../slices/emailSlice";
+import { emailSelector } from "../slices/emailslice";
 import { setForgot } from "../slices/forgotslice";
 import { setSubmit } from "../slices/submitslice";
 import { setProceed } from "../slices/proceedslice";
