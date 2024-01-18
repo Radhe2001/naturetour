@@ -1,0 +1,16 @@
+.login-main-div {
+    width: 35%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: 1px solid rgba(154, 167, 163, 0.43);
+}
+
+.actual-login-main-div {
+    background: rgba(255, 255, 255, 0.43);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: 1px solid rgba(154, 167, 163, 0.43);
+}

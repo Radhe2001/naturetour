@@ -1,0 +1,19 @@
+.parent-blog-div{
+    height:900px;
+}
+
+.blog-show-div{
+    height:900px;
+    width: 60%;
+    overflow-y: scroll;
+}
+
+.btn-div-blog{
+    width:60%;
+}
+
+.btn-nav-pag:hover{
+    background-color: #EA906C;
+    color: #200E3A;
+    border-color: #1B4242;
+}

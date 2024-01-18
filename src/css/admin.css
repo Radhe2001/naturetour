@@ -1,0 +1,72 @@
+.admin-nav{
+    width:53%;
+    background-color: #8f867a;
+}
+
+.user-list{
+    margin-top: 50px;
+    height:700px;
+    width:45%;
+    overflow-y: scroll;
+}
+
+.user-img-div-admin{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+
+.btn-delete-user-admin{
+    background-color: #030637;
+    color:#fff;
+    border-color: #DC84F3;
+}
+
+.btn-delete-user-admin:hover{
+    background-color: #86B6F6;
+    color: #0F1035;
+    border-color: #176B87;
+}
+
+.country-text-comp{
+    text-align: justify;
+    width:510px;
+}
+
+.country-img-div-admin{
+    height:150px;
+    width: 135px;
+    background-size: cover;
+}
+
+.destination-img-div-admin{
+    width:125px;
+    height:150px;
+    background-size:cover ;
+}
+
+.text-short-desc-destination{
+    width:520px;
+    text-align:justify;
+}
+
+.form-admin-div{
+    width: 35%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: 1px solid rgba(154, 167, 163, 0.43);
+}
+
+.main-admin-form-login-div{
+    height:938px;
+}
+
+.blog-img-div-admin{
+    height:130px;
+    width:220px;
+}
+
+.desc-blog-admin{
+    width:440px;
+}

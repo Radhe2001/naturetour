@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/app_logo.png" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <script type="module" src="/src/main.jsx"></script>
+    <title>NatureTour</title>
+  </head>
+  <body >
+    <div id="root"></div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.documentElement.addEventListener(
+          "wheel",
+          function (event) {
+            const { ctrlKey } = event;
+            if (ctrlKey) {
+              event.preventDefault();
+              return;
+            }
+          },
+          { passive: false }
+        );
+      });
+
+      document.addEventListener("keydown", function (event) {
+        if (event.ctrlKey && (event.key === "+" || event.key === "-")) {
+          event.preventDefault();
+        }
+      });
+    </script>
+  </body>
+</html>

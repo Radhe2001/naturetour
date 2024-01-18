@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+#root {
+  text-align: center;
+}
+
+.login-div-in-app{
+  height:100%;
+  width:100%;
+}
+
+.header-div-in-app{
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 2%;
+}
+
+.header-bg{
+  background-color: #3D3B40;
+  margin-bottom: 8%;
+  box-shadow: 0 20px 25px #676b61;
+}
+
+.active {
+  color: blue;
+}
+
+.nav-div{
+  min-width: 90%;
+}
+
+.app-name{
+  margin-right:15%;
+  font-family: "audiowide";
+  text-shadow:6px 6px 8px #0d0c0d;
+}
+
+.nav-btn{
+  margin-left:8%;
+}
+
+.parent-nav-div{
+  box-shadow:  0 2px #413d48;
+}
+
+.lower-body-header{
+  padding-top: 7%;
+  max-width: 30%;
+  padding-bottom: 7%;
+  margin-left: 14%;
+}
+
+.parent-container {
+  position: relative;
+}
+
+.overlay-div {
+  position: absolute;
+  top: 15%;
+  right: 8%;
+  z-index: 1;
+}
+.overlay-img1-div {
+  height: 220px;
+  width: 220px;
+  background-size: cover;
+  background-image: url('./assets/img1.png');
+  position: absolute;
+  top: 19%;
+  right: 9%;
+  z-index: 3;
+}
+.overlay-img2-div {
+  height: 230px;
+  width: 200px;
+  background-image: url('./assets/img2.png');
+  position: absolute;
+  background-size: cover;
+  top: 45%;
+  right: 7%;
+  z-index: 3;
+}
+.overlay-img3-div {
+  height: 270px;
+  width: 210px;
+  background-image: url('./assets/img3.png');
+  position: absolute;
+  background-size: cover;
+  top: 29%;
+  right: 21%;
+  z-index: 1;
+}
+.overlay-img4-div {
+  height: 210px;
+  width: 210px;
+  background-image: url('./assets/img4.png');
+  position: absolute;
+  top: 60%;
+  right: 18%;
+  z-index: 1;
+}
+.overlay-img5-div {
+  height: 290px;
+  width: 230px;
+  background-image: url('./assets/img5.png');
+  position: absolute;
+  background-size: cover;
+  top: 55%;
+  right: 32%;
+  z-index: 1;
+}
+
+.parent-footer-div{
+  background-color: #3D3B40;
+  margin-bottom:2%;
+}
+
+
+.facebook{
+  background-image: url("./assets/facebook_logo.png");
+  background-size: cover;
+}
+
+.twitter{
+  background-image: url("./assets/twitter_logo.png");
+  background-size: cover;
+}
+
+.linkedin{
+  background-image: url("./assets/linkedin.png");
+  background-size: cover;
+}
+
+.instagram{
+  background-image: url("./assets/insta_logo.png");
+  background-size: cover;
+}
+
+
+.about-title{
+  font-family: audiowide;
+}
